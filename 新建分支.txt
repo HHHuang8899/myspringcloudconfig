@@ -1,0 +1,11 @@
+1.创建本地分支
+
+git branch bac
+
+2.切换到新创建的分支
+
+git checkout bac
+
+3.将新分支push到github   
+
+git push origin bac   也可以用小乌龟
