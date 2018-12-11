@@ -1,0 +1,9 @@
+原理：推送一个空分支到远程分支，其实就相当于删除远程分支（自己感悟）
+
+方式一：通过代码删除
+
+命令：$ git push origin 【空格】【冒号】【需要删除的分支名字】
+
+比如我github上有master和feature分支，我现在想着删除feature分支，命令如下：
+
+$ git push origin :feature
